@@ -440,7 +440,7 @@ const regenerateCommention = async () => {
 
             <div className="credit-count">
               <span className="count"> Count - {count}</span>
-              <button onClick={() => navigate('/userData')} className="chart-info">Info</button>
+              {/* <button onClick={() => navigate('/userData')} className="chart-info">Info</button> */}
               <Chip avatar={<Avatar>₹</Avatar>}
                label="Buy Credits" 
                onClick={() => navigate("/cart") }
